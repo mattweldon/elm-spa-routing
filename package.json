@@ -7,5 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Matt Weldon",
-  "license": "BSD3"
+  "license": "BSD3",
+  "devDependencies": {
+    "babel-brunch": "^6.0.6",
+    "brunch": "^2.8.2",
+    "elm-brunch": "^0.7.0"
+  }
 }
