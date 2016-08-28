@@ -12,6 +12,7 @@
   "devDependencies": {
     "babel-brunch": "^6.0.6",
     "brunch": "^2.8.2",
-    "elm-brunch": "^0.7.0"
+    "elm-brunch": "^0.7.0",
+    "sass-brunch": "^2.6.3"
   }
 }

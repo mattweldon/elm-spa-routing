@@ -16,7 +16,7 @@ module.exports = {
 
   paths: {
     // Which directories to watch
-    watched: ["src"],
+    watched: ["src", "scss"],
 
     // Where to compile files to
     public: "public"
@@ -25,6 +25,9 @@ module.exports = {
   plugins: {
     elmBrunch: {
       mainModules: ["src/App.elm"]
+    },
+    sass: {
+      allowCache: true
     }
   }
 };
