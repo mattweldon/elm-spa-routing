@@ -2,3 +2,5 @@ elm-stuff/
 repl-temp-*
 node_modules/
 public/js/
+public/css/
+.sass-cache/
