@@ -25,3 +25,9 @@ urlParser =
 urlUpdate : ( Route, Address ) -> Model -> ( Model, Cmd msg )
 urlUpdate ( route, address ) model =
     ( { model | route = route, address = address }, Cmd.none )
+
+
+navigateTo : String -> Cmd msg
+navigateTo path =
+  Hop.outputFromPath Routes.hopConfig path
+    |> Navigation.newUrl
