@@ -1,5 +1,5 @@
-# Elm Brunch Boilerplate
+# Elm SPA Routing
 
-A simple boilerplate project for getting Elm working with Brunch.
+A basic introduction to getting SPA-style routing working in Elm.
 
-Clone the repo and run `npm start` to load the server. A more detailed walk through the project can be found here: https://mattweldon.com/articles/setting-up-a-build-process-for-elm-using-brunch/
+Clone the repo and run `npm start` to load the server. A more detailed walkthrough of the project can be found here: https://mattweldon.com/articles/single-page-routing-in-elm/
