@@ -8,6 +8,7 @@ import Models exposing (..)
 import Routes exposing (..)
 import Routing exposing (..)
 import Views exposing (..)
+import Updates exposing (..)
 
 main : Program Never
 main =
@@ -15,14 +16,10 @@ main =
     { init = init
     , urlUpdate = Routing.urlUpdate
     , view = Views.render
-    , update = update
+    , update = Updates.update
     , subscriptions = (always Sub.none)
     }
 
 init : ( Route, Address ) -> ( Model, Cmd msg )
 init ( route, address ) =
     ( Model address route, Cmd.none )
-
-update : msg -> Model -> ( Model, Cmd msg )
-update msg model =
-  ( model, Cmd.none )
